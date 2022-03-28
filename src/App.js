@@ -11,9 +11,9 @@ function App() {
     <GlobalProvider>
       <div className="App">
         <Switch>
-          <Route path="/" component={Home} exac />
           <Route path="/add" component={AddEmployee} exac />
           <Route path="/edit/:id" component={EditEmployee} exact />
+          <Route path="/" component={Home} exac />
         </Switch>
       </div>
     </GlobalProvider>
